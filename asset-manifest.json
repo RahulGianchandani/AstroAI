@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AstroAI/static/css/main.30528b48.css",
-    "main.js": "/AstroAI/static/js/main.ebd70e84.js",
+    "main.js": "/AstroAI/static/js/main.ed841f72.js",
     "static/js/787.563712fa.chunk.js": "/AstroAI/static/js/787.563712fa.chunk.js",
     "index.html": "/AstroAI/index.html",
     "main.30528b48.css.map": "/AstroAI/static/css/main.30528b48.css.map",
-    "main.ebd70e84.js.map": "/AstroAI/static/js/main.ebd70e84.js.map",
+    "main.ed841f72.js.map": "/AstroAI/static/js/main.ed841f72.js.map",
     "787.563712fa.chunk.js.map": "/AstroAI/static/js/787.563712fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30528b48.css",
-    "static/js/main.ebd70e84.js"
+    "static/js/main.ed841f72.js"
   ]
 }
