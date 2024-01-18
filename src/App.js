@@ -14,7 +14,7 @@ const App = () => {
   const [astroImg, setAstroImg] = useState('');
   const [loading, setLoading] = useState(false);
 
-
+console.log(process.env.REACT_APP_SECRET_KEY);
   const generateAstroInfo = () => {
     // Here, you would make an API call to ChatGPT API to get personalized astrological insights
     // For simplicity, let's assume a placeholder result
