@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+/* Import Tailwind CSS styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles go here (if any) */
+.mainDiv {
+  background: #f6f6f6;
+  background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+  background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
+  background-repeat: no-repeat;
+  animation: 15s moiveAnimation infinite;
+  background-color: #34178d;
+  background-image: radial-gradient(closest-side, #aa8df5, rgba(0, 0, 0, 0)), radial-gradient(closest-side, #d583f7, rgba(0, 0, 0, 0)), radial-gradient(closest-side, #8783f9, rgba(0, 0, 0, 0)), radial-gradient(closest-side, #a656fb, rgba(0, 0, 0, 0)) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@keyframes moiveAnimation {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  0%,
+  100% {
+    background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+    background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  25% {
+    background-size: 120vw 120vh, 130vw 150vh, 130vw 120vh, 100vw 110vh;
+    background-position: -30vw -30vh, 40vw -10vh, 0vw 10vh, -10vw 20vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    background-size: 130vw 130vh, 140vw 100vh, 100vw 150vh, 90vw 110vh;
+    background-position: 10vw -60vh, 20vw 10vh, 10vw 30vh, 10vw -20vh;
+  }
+
+  75% {
+    background-size: 140vw 140vh, 100vw 130vh, 100vw 150vh, 130vw 110vh;
+    background-position: -70vw -70vh, 0vw -10vh, 30vw -20vh, 20vw 30vh;
   }
 }
