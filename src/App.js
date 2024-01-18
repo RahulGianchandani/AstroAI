@@ -73,7 +73,7 @@ const App = () => {
       {/* Main Content */}
 
       <main className="container mx-auto my-8 min-h-screen">
-        <div className="bg-white p-8 rounded-md shadow-md">
+        <div className="bg-white p-8 rounded-md shadow-md glassBG">
           <h2 className="text-2xl font-bold mb-6">Astrology Profile Generator</h2>
 
           {/* Form */}
